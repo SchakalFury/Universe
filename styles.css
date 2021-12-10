@@ -1,0 +1,157 @@
+.global-container {
+    background: url("Resourse/blue-background.jpg")top center repeat-x #000;
+    overflow:scroll;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    border: 0;
+    display: fixed;
+    height: 100vh;
+    font-family: "canis minor";
+}
+.toolbar {
+    width:auto;
+    font-family: "Reza Zulmi Sans";
+    font-size: x-large;
+ 
+}
+
+
+.text-container > h1 {
+    font-family: "Space Age";
+    font-size: 450%;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    padding-left: 20%;
+    padding-top: 3%;
+    height: 200px;
+    display: flex;
+    
+}
+.container1 {
+    background: url("Resourse/abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+    height: 100vh;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 30px;
+    padding: 0;
+    border: 0;
+    display: fixed;
+}
+
+ h1{
+       font-family: "canis minor";
+       color: blanchedalmond;
+       text-align: left;
+       padding-top: 10px;
+   }
+h3{
+    font-family: "Reza Zulmi Sans";
+    color: aquamarine; 
+   }
+
+.first-block {
+    padding-top: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#first {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 17px 14px 7px 20px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+}
+.first-text {
+    margin-left: 40px;
+}
+.container2 {
+    background: url("Resourse/desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+    height: 100vh;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 10px;
+    padding: 0;
+    border: 0;
+    display: fixed;
+ }
+
+ .second-block {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    margin-bottom: 20px;
+      
+ }
+ .second-text {
+     margin-left: -15%;
+     text-align: right;
+ }
+#second {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 17px 14px 7px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    position: relative;
+    right: -60%;
+}
+
+.three-block {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    margin-bottom: 20px;
+      
+ }
+
+#three {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 17px 14px 7px 20px rgba(0, 0, 0, 0.25);
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: relative;
+}
+.three-text {
+    margin-top: 5%;
+    margin-left: 1%;
+     text-align: left;
+}
+
+
+
+
+@font-face {
+font-family: "canis minor"; 
+src: url("Resourse/CanisMinor.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+ } 
+@font-face {
+font-family: "Reza Zulmi Sans"; 
+src: url("Resourse/RezaZulmiSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+font-family: "Space Age"; 
+src: url("Resourse/space age.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
